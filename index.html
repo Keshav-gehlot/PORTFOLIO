@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Keshav Gehlot - Portfolio</title>
+
+    <!-- Font Awesome icons -->
+    <script src="https://kit.fontawesome.com/a9cdbedf57.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styling CSS -->
+    <link rel="stylesheet" id="themeStylesheet" href="./assets/css/style.css">
+    
+    <!-- Animation library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="container">
+            <a href="./index.html" class="logo">KESHAV<span>DEV</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="home">
+            <div class="container">
+                <div class="hero-content animate__animated animate__fadeInLeft">
+                    <span class="subtitle">Hello, World!</span>
+                    <h1 class="hero-section__title">I'm <span>Keshav Gehlot</span></h1>
+                    <p class="hero-section__desc">A passionate Web Developer skilled in Frontend Technologies, creating interactive and responsive web experiences that blend design aesthetics with functionality.</p>
+                
+                    <ul class="social-icons">
+                        <li>
+                            <a href="https://www.linkedin.com/in/keshav-gehlot-304084321" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/realkeshavgehlot" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Keshav-gehlot" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        </li>
+                    </ul>
+
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Let's Talk</a>
+                        <a href="assets/my resume/SID 5.0.pdf" download class="btn btn-outline">Download CV</a>
+                    </div>
+                </div>
+
+                <div class="hero-img animate__animated animate__fadeInRight">
+                    <img src="assets/img/ABH_8150.jpg" alt="Keshav Gehlot" width="350">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="subtitle">About Me</span>
+                    <h2>Discover my <span>Story</span></h2>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-img animate__animated animate__fadeInLeft">
+                        <img src="assets/img/ABH_8150.jpg" alt="Keshav Gehlot">
+                    </div>
+                    
+                    <div class="about-text animate__animated animate__fadeInRight">
+                        <h3>UI Designer & Web Developer</h3>
+                        <p>Hi, I'm a second-year Computer Science student at SRM University with a strong passion for Web Development. My academic journey has given me the chance to explore the world of technology and its potential to solve real-world challenges. As a student in this ever-evolving digital age, I've had the opportunity to work on some exciting projects, which you can check out right here on my portfolio.</p>
+                        
+                        <div class="skills">
+                            <div class="skill-item">
+                                <h4>HTML & CSS</h4>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <h4>JavaScript</h4>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <h4>Python</h4>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects-section" id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <span class="subtitle">Portfolio</span>
+                    <h2>My Recent <span>Projects</span></h2>
+                </div>
+                
+                <div class="projects-filter">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="ai">AI</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                    <button class="filter-btn" data-filter="app">App</button>
+                </div>
+                
+                <div class="projects-cards">
+                    <div class="projects-card-box animate__animated animate__fadeInUp" data-category="ai">
+                        <div class="project-img">
+                            <img src="assets\img\stock-prediction.jpeg" alt="AI Stock Prediction">
+                        </div>
+                        <div class="projects-card-content">
+                            <div class="projects-card-box__icons">
+                                <i class="fa-solid fa-chart-line"></i>
+                            </div>
+                            <div class="projects-card-box__desc">
+                                <h4>AI Stock Prediction</h4>
+                                <p>An intelligent stock prediction system leveraging machine learning algorithms to analyze market trends and forecast future stock prices, helping investors make informed decisions.</p>
+                            </div>
+                            <div class="projects-card-box__buttons">
+                                <a href="https://github.com/Keshav-gehlot/AI-stock-prediction-" target="_blank" class="btn btn-outline">View Project <i class="fa-solid fa-external-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="projects-card-box animate__animated animate__fadeInUp" data-category="ai">
+                        <div class="project-img">
+                            <img src="assets\img\mage-processor..jpeg" alt="Raw Image Processor">
+                        </div>
+                        <div class="projects-card-content">
+                            <div class="projects-card-box__icons">
+                                <i class="fa-solid fa-image"></i>
+                            </div>
+                            <div class="projects-card-box__desc">
+                                <h4>Raw Image Processor</h4>
+                                <p>A powerful image processing tool that transforms raw image data into enhanced visual outputs, featuring filters, adjustments, and optimization techniques for professional-grade results.</p>
+                            </div>
+                            <div class="projects-card-box__buttons">
+                                <a href="https://github.com/Keshav-gehlot/raw_image_processor" target="_blank" class="btn btn-outline">View Project <i class="fa-solid fa-external-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="projects-card-box animate__animated animate__fadeInUp" data-category="app">
+                        <div class="project-img">
+                            <img src="assets/img/calorie-app.jpeg" alt="Calorie Intake App">
+                        </div>
+                        <div class="projects-card-content">
+                            <div class="projects-card-box__icons">
+                                <i class="fa-solid fa-utensils"></i>
+                            </div>
+                            <div class="projects-card-box__desc">
+                                <h4>Calorie Intake App</h4>
+                                <p>A health-focused application that helps users track their daily calorie consumption, set nutritional goals, and maintain a balanced diet through an intuitive and user-friendly interface.</p>
+                            </div>
+                            <div class="projects-card-box__buttons">
+                                <a href="https://github.com/Keshav-gehlot/calorie-intake-app" target="_blank" class="btn btn-outline">View Project <i class="fa-solid fa-external-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="projects-card-box animate__animated animate__fadeInUp" data-category="ai">
+                        <div class="project-img">
+                            <img src="assets/img/hands-tracking.jpeg" alt="Hands Tracking">
+                        </div>
+                        <div class="projects-card-content">
+                            <div class="projects-card-box__icons">
+                                <i class="fa-solid fa-hand"></i>
+                            </div>
+                            <div class="projects-card-box__desc">
+                                <h4>Hands Tracking</h4>
+                                <p>An innovative computer vision project that accurately detects and tracks hand movements in real-time, enabling gesture-based controls for various applications and enhancing human-computer interaction.</p>
+                            </div>
+                            <div class="projects-card-box__buttons">
+                                <a href="https://github.com/Keshav-gehlot/Hands-tracking" target="_blank" class="btn btn-outline">View Project <i class="fa-solid fa-external-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="projects-card-box animate__animated animate__fadeInUp" data-category="web">
+                        <div class="project-img">
+                            <img src="assets\img\java-project.jpeg" alt="Reports Project">
+                        </div>
+                        <div class="projects-card-content">
+                            <div class="projects-card-box__icons">
+                                <i class="fa-solid fa-file-lines"></i>
+                            </div>
+                            <div class="projects-card-box__desc">
+                                <h4>Reports Project</h4>
+                                <p>A comprehensive reporting system that generates detailed analytics and visualizations, helping businesses make data-driven decisions through organized and insightful presentation of information.</p>
+                            </div>
+                            <div class="projects-card-box__buttons">
+                                <a href="https://github.com/Keshav-gehlot/reports-" target="_blank" class="btn btn-outline">View Project <i class="fa-solid fa-external-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="projects-card-box animate__animated animate__fadeInUp" data-category="app">
+                        <div class="project-img">
+                            <img src="assets\img\java-project.jpeg" alt="Java Application">
+                        </div>
+                        <div class="projects-card-content">
+                            <div class="projects-card-box__icons">
+                                <i class="fa-brands fa-java"></i>
+                            </div>
+                            <div class="projects-card-box__desc">
+                                <h4>Java Application</h4>
+                                <p>A robust Java-based application demonstrating object-oriented programming principles, efficient data structures, and clean architecture to deliver a seamless user experience with high performance.</p>
+                            </div>
+                            <div class="projects-card-box__buttons">
+                                <a href="https://github.com/Keshav-gehlot/java" target="_blank" class="btn btn-outline">View Project <i class="fa-solid fa-external-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <span class="subtitle">Get In Touch</span>
+                    <h2>Contact <span>Me</span></h2>
+                </div>
+                
+                <div class="contact-container">
+                    <div class="contact-info animate__animated animate__fadeInLeft">
+                        <div class="contact-item">
+                            <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="text">
+                                <h4>Location</h4>
+                                <p>SRM University, Chennai, India</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon"><i class="fas fa-envelope"></i></div>
+                            <div class="text">
+                                <h4>Email</h4>
+                                <p>Keshavgehlot18@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon"><i class="fas fa-phone"></i></div>
+                            <div class="text">
+                                <h4>Phone</h4>
+                                <p>+91 9829445825</p>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <a href="https://github.com/Keshav-gehlot" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/keshav-gehlot-304084321" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/realkeshavgehlot" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form animate__animated animate__fadeInRight" action="https://formspree.io/f/mayvkqpd" method="POST">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>KESHAV<span>DEV</span></h3>
+                    <p>Creating digital experiences that matter.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Keshav Gehlot. All Rights Reserved.</p>
+                <p>Web Developer | UI Designer</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
